@@ -1,0 +1,47 @@
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #235390;
+    z-index: 1000;
+    padding-right: 40px;
+}
+
+.logo figure{
+    margin: 18px 0 18px 40px;
+    width: 55%;
+    max-width: 200px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo div{
+    display: none;
+}
+
+.logo p{
+    margin: 0;
+    padding: 0 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+
+.logo p img{
+    width: 20px;
+    margin-left: 5px;
+    align-self: flex-end;
+}
+
+@media screen and (min-width:1065px){
+    .logo div{
+        display: block;
+    }
+}

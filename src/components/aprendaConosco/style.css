@@ -1,0 +1,47 @@
+.aprendaConosco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+    margin-bottom: 48px;
+}
+
+.aprendaConosco h1{
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.aprendaConosco div{
+    margin: 5px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #58a700;
+    padding-bottom: 3px;    
+    width: max-content;
+}
+
+.aprendaConosco div button{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #58cc02;
+    font-weight: 800;
+    width: max-content;
+    font-size: 15px;
+}
+
+@media screen and (min-width:1065px){
+    .aprendaConosco{
+        flex-direction: row;
+        align-items: flex-start;
+    }    
+    .aprendaConosco h1{
+        margin: 0 48px 50px 0;
+    }
+}
+

@@ -1,0 +1,17 @@
+.plus p{
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.plus a{
+    color: #1cb0f6;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.plus h2{
+    text-align: center;
+}

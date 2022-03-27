@@ -1,0 +1,13 @@
+.teste a{
+    color: #1cb0f6;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.teste p{
+    margin: 0;
+    margin-bottom: 24px;
+}

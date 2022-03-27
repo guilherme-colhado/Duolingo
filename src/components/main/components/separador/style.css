@@ -1,0 +1,6 @@
+.separador{
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;    
+    margin: 12px auto;
+    max-width: 1065px;
+}

@@ -1,0 +1,80 @@
+.Main-app{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #777;
+    margin-top: 10px;
+}
+
+.Main-app section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: left;
+    max-width: 1065px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Main-app section figure{
+    margin: 0;
+    margin-bottom: 48px;
+}
+
+.Main-app section figure img{
+    max-height: 180px;
+}
+
+.Main-app section h2{
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.Main-app section h2, .Main-app section h3, .Main-app section h4{
+    color: #3c3c3c;
+}
+
+@media screen and (min-width:1065px) {
+    .Main-app section{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Main-app section h2{
+        text-align: start;
+    }  
+    .Main-app .first > figure{
+        margin: 0 48px 0 24px;
+    }   
+    .Main-app .plus > figure, .Main-app .escola > figure, .Main-app .grafico > figure{
+        margin: 0 48px 0 0;
+    }
+    .Main-app .ondeQuando, .Main-app .teste{
+        flex-direction: row-reverse;
+    }
+    .Main-app .ondeQuando > figure, .Main-app .teste > figure{
+        margin: 0 0 0 48px;
+    }
+    .Main-app .ondeQuando > div > div{
+        display: flex;
+    }
+    .Main-app .lista .celular{
+        display: none;
+    }
+
+    .Main-app .lista .desktop{
+        display: block;
+    }
+    .Main-app .lista .desktop h2{
+        text-align: center;
+    }
+    .Main-app .lista .desktop > div{
+        display: flex;
+        align-items: center;
+    }
+}

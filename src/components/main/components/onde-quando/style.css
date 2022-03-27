@@ -1,0 +1,38 @@
+.ondeQuando a{
+    color: #484848;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 2px 3px 2px;
+    background-color: #ebebeb;
+    border-radius: 15px;
+    width: max-content;
+    display: flex;
+    height: max-content;
+}
+
+.ondeQuando a > div{
+    display: flex;
+    border-radius: 15px;
+    padding: 12px 20px;
+    background-color: white;
+}
+
+.ondeQuando a span{
+    font-size: 16px;
+}
+
+.ondeQuando .first{
+    margin: 0 12px 12px 0;
+}
+
+.ondeQuando a figure{
+    margin: 0;
+    margin-right: 10px;
+}
+
+.ondeQuando p{
+    margin: 0;
+    margin-bottom: 24px;
+}

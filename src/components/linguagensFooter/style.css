@@ -1,0 +1,24 @@
+.linguagensFooter{
+    padding: 24px 40px 48px;
+    border-top: 2px solid hsla(0,0%,100%,.2);
+    margin: 0 auto;
+    max-width: 1065px;
+}
+
+.linguagensFooter h4{
+    font-size: 15px;
+    text-align: start;
+    margin: 6px 0;
+}
+
+.linguagensFooter ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linguagensFooter li{
+    padding: 6px 24px 0 0;
+    font-size: 13px;
+    opacity: .7;
+}

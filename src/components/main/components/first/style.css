@@ -1,0 +1,17 @@
+.first figcaption{
+    display: none;
+}
+
+.first h2{
+    
+}
+
+.first p{
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.first p a{
+    font-weight: 700;
+    color: #777;
+}
